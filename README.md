@@ -7,9 +7,9 @@
 2d/3d football  
 
 ### 2d
-![2d](doc\gif\2d.gif)
+![2d](doc\2d.gif)
 ### 3d
-![2d](doc\gif\3d.gif)
+![2d](doc\3d.gif)
 
 ## 案例二：
 todo
