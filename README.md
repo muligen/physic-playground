@@ -14,8 +14,10 @@
 ## 案例二：
 ![2d](doc/pinball.gif)
 
-碰撞：  
-等等
+点击如下链接：球与胶囊、墙壁碰撞等知识点。   
+[lesson3](doc/lesson3/lesson3.md)   
+[lesson4](doc/lesson4/lesson4.md)   
+
 ## 案例三：
 todo
 ## 案例四：
