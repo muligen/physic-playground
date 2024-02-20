@@ -10,9 +10,9 @@ public class PhysicScene
     private PhysicScene() {}
     public static PhysicScene Instance
     {
+        // 单例，使用双重检查锁定以确保线程安全
         get
         {
-            // 使用双重检查锁定以确保线程安全
             if (instance == null)
             {
                 lock (lockObject)

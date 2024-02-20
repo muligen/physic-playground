@@ -12,7 +12,10 @@
 ![2d](doc/3d.gif)
 
 ## 案例二：
-todo
+![2d](doc/pinball.gif)
+
+碰撞：  
+等等
 ## 案例三：
 todo
 ## 案例四：
