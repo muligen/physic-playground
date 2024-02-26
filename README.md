@@ -28,6 +28,7 @@ pendulum
 ![alt text](doc/Pendulum.gif)   
 [lesson6](doc/lesson6/lesson6.md)
 ## 案例四：
-todo
+软体 softbody
+![alt text](doc/pinkrabbit.gif)
 ## 案例五：
 todo
