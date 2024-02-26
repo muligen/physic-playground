@@ -30,5 +30,7 @@ pendulum
 ## 案例四：
 软体 softbody
 ![alt text](doc/pinkrabbit.gif)
+
+[lesson10](doc/lesson10/lesson10.md)
 ## 案例五：
 todo
