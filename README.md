@@ -33,4 +33,6 @@ pendulum
 
 [lesson10](doc/lesson10/lesson10.md)
 ## 案例五：
-todo
+空间快速处理碰撞 quickly handle collision by partial hash   
+![alt text](doc/partial_hash.gif)   
+[lesson11](doc/lesson11/lesson11.md)
