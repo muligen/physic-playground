@@ -287,7 +287,7 @@ public class lesson_seventeen : MonoBehaviour
     {
 
         var x = (obstacle.transform.position.x - img_Fluid2D.transform.position.x) / (numY * 10);
-        var y = (obstacle.transform.position.y - img_Fluid2D.transform.position.y) / (numY * 10);
+        var y = (obstacle.transform.position.y - img_Fluid2D.transform.position.y + 10f) / (numY * 10);
         
         var vx = 0.0f;
         var vy = 0.0f;

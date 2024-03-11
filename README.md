@@ -65,3 +65,9 @@ pendulum
 ![alt text](doc/smoke.gif)
 
 [lesson17](doc/lesson17/lesson17.md)
+
+Flip方法流体仿真  FLIP Water Simulator
+
+![alt text](doc/flip.gif)
+
+[lesson18](doc/lessson18/lesson18.md)

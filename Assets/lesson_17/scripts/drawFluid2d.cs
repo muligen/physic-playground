@@ -44,11 +44,17 @@ public class drawFluid2d : Image
         }
         for (int i = 0; i < numX - 1; i++)
         {
-            for (int j = 0; j < numY - 1; j++)
+            for (int j = 0; j < numY / 2; j++)
             {
                 int idx = i * numY + j;
-                vh.AddTriangle(idx, idx + numY, idx + numY+1);
-                vh.AddTriangle(idx, idx + numY+1, idx + 1);
+                vh.AddTriangle(idx, idx + numY, idx + 1);
+                vh.AddTriangle(idx + numY, idx + numY + 1, idx + 1);
+            }
+            for (int j = numY/2; j < numY - 1; j++)
+            {
+                int idx = i * numY + j;
+                vh.AddTriangle(idx, idx + numY, idx + numY + 1);
+                vh.AddTriangle(idx, idx + numY + 1, idx + 1);
             }
         }
 
