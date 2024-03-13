@@ -198,7 +198,7 @@ class FlipFluid
                             this.particlePos[2 * id] += dx;
                             this.particlePos[2 * id + 1] += dy;
 
-                            // diffuse colors   漫反射颜色？？ 去掉什么样
+                            // diffuse colors   扩散颜色
 
                             for (var k = 0; k < 3; k++)
                             {
@@ -801,6 +801,7 @@ public class lesson_eighteen : MonoBehaviour
         {
             paticles.Add(Instantiate(prefab, new Vector3(f.particlePos[i * 2], f.particlePos[i * 2 + 1], 0), Quaternion.identity));
         }
+        Debug.Log(paticles.Count);
     }
 
     private void FixedUpdate()
